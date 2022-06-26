@@ -1,12 +1,14 @@
-# Inferencing Propositional Logic Sentences
+### EX NO: 07 
+### DATE: 
+# <p align="center">Inferencing Propositional Logic Sentences</p>
 
-## AIM
+## AIM:
 To develop python code to inference propositional logic sentences to solve Wumpus World problem.
 
-## THEORY
+## THEORY:
 The Wumpus World's agent is an example of a knowledge-based agent that represents Knowledge representation, reasoning , and planning. A Knowledge-Based agent links general knowledge with current percepts to infer hidden characters of the current state before selecting actions.
 
-## DESIGN STEPS
+## DESIGN STEPS:
 ### STEP 1:
 Importing required logical and utils files.
 
@@ -28,7 +30,11 @@ Using propositional Logic defines the possibility of agent's next move.
 ### STEP 7:
 Using wumpus_kb.ask_if_true() to get the result based on TRUE value.
 
-## PROGRAM
+## PROGRAM:
+``` 
+Developed By: KAYALVIZHI M 
+Register Number: 212220230024 
+```
 ```python3
 from utils import *
 from logic import *
@@ -95,7 +101,7 @@ wumpus_kb.tell(B34 | '<=>' | ((P33| P44)))
 wumpus_kb.clauses
 wumpus_kb.ask_if_true(~P41)
 ```
-## OUTPUT
+## OUTPUT:
 ### Checking in algorithm:
 ![image](https://user-images.githubusercontent.com/75413726/175784831-51f5ca0a-eefb-447b-ae74-e046046acd23.png)
 
@@ -111,5 +117,5 @@ wumpus_kb.ask_if_true(~P41)
 ### End of the game:
 ![WhatsApp Image 2022-06-25 at 11 31 20 PM](https://user-images.githubusercontent.com/75413726/175785315-f5aba29d-46d4-4634-abe0-e64ddb813cd5.jpeg)
 
-## RESULT
+## RESULT:
 Thus, the developed agent can predict the next move in the wumpus game using propositional logic sentences .
